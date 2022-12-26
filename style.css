@@ -1,0 +1,27 @@
+/*Universal Selectors*/
+* {
+    font-family:sans-serif
+}
+
+header {
+    margin:5px;
+    background-color:rgb(83,86,90);
+    /* width:100%; */
+    color:white;
+    position:fixed;
+}
+
+footer {
+    background-color:rgb(83,86,90);
+    width:100%;
+    color:white;
+}
+
+/* header img {
+    width:50px;
+    height:50px;
+} */
+
+body {
+    background-color: lightgray;
+}

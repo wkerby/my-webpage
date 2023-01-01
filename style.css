@@ -14,7 +14,7 @@ header {
     position:relative;
 }
 
-section {
+main > section {
     background-color:gray;
     color:black;
     border-style:solid;

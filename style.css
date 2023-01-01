@@ -20,6 +20,7 @@ main > section {
     border-style:solid;
     border-color:black;
     margin:10px 0px;
+    padding:30px 10px;
 }
 
 header h1 {
@@ -63,3 +64,6 @@ footer {
     color:white;
 }
 
+main section h2 {
+    font-size: medium;
+}

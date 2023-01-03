@@ -5,13 +5,28 @@
 
 body {
     background-color: lightgray;
+    margin:0;
 }
 
 header {
     background-color:rgb(83,86,90);
     color:white;
     padding:5px 0px;
-    position:relative;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+main {
+    height:100vh;
+    margin:70px 10px 0px;
+    flex: 0 0 77%;
+
 }
 
 main > section {
@@ -32,9 +47,9 @@ header h1 {
 }
 
 header nav {
-    position:absolute;
-    right:30px;
-    bottom:0%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
 }
 
 header a {
@@ -52,19 +67,31 @@ header nav a:hover {
 }
 
 aside {
-    position:absolute;
+    /* position:absolute; */
     border-style:solid;
     border-color:black;
-    right:25px;
+    flex: 0 0 20%;
+    margin:70px 10px 0px;
+    /* float:right; */
+    /* right:25px; */
 
 }
 footer {
     background-color:rgb(83,86,90);
     width:100%;
+    padding:5px
     
     color:white;
 }
 
 main section h2 {
     font-size: medium;
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:stretch;
+    justify-content: space-between;
 }

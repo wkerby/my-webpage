@@ -17,8 +17,6 @@ header {
 main > section {
     background-color:gray;
     color:black;
-    border-style:solid;
-    border-color:black;
     margin:10px 0px;
     padding:30px 10px;
 }

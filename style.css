@@ -21,6 +21,10 @@ main > section {
     padding:30px 10px;
 }
 
+main > section:nth-child(1) {
+    margin:0px;
+}
+
 header h1 {
     padding:0px 5px;
     font-size:medium;
@@ -28,11 +32,9 @@ header h1 {
 }
 
 header nav {
-    /* float:right; */
     position:absolute;
     right:30px;
     bottom:0%;
-
 }
 
 header a {
@@ -59,6 +61,7 @@ aside {
 footer {
     background-color:rgb(83,86,90);
     width:100%;
+    
     color:white;
 }
 

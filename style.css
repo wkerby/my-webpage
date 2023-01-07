@@ -114,12 +114,10 @@ img {
 
 .header-image {
     display:inline-block;
-    /* border:1px solid black; */
     width:70px;
     height:70px;
     border-radius:60%;
     margin-right:0%;
-    /* background-image:url("C:\\Users\\wkerb\\Desktop\\GT_Dev\\my-webpage\\assets\\google_profile.png"); */
     background-image:url("./assets/google_profile.PNG");
     background-size:88px;
     background-position:bottom center;

@@ -1,11 +1,9 @@
-/* Universal Selectors */
-* {
-    font-family: sans-serif;
-}
+/* Element Selectors */
 
 body {
     background-color: lightgray;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header,

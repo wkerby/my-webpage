@@ -76,17 +76,36 @@ header nav a:hover {
 }
 
 aside {
-    /* position:absolute; */
     border: 1px solid black;
     flex: 0 0 20%;
     margin: 100px 10px 5px;
-    /* float:right; */
-    /* right:25px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: space-between;
 
 }
 
 aside>h2,
 aside>p {
+    text-align: center;
+}
+
+aside figure {
+    /* border: 1px solid black; */
+    margin: 10%;
+    display: block;
+}
+
+aside img {
+    width: 80%;
+    height: 80%;
+    border-radius: 5%;
+    left: 20px;
+
+}
+
+aside figcaption {
     text-align: center;
 }
 

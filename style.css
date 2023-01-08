@@ -8,7 +8,8 @@ body {
     margin: 0;
 }
 
-header {
+header,
+footer {
     background-color: rgb(83, 86, 90);
     color: white;
     padding: 5px 0px;
@@ -24,10 +25,8 @@ header {
 }
 
 footer {
-    background-color: rgb(83, 86, 90);
-    width: 100%;
-    padding: 15px;
-    color: white;
+    position: static;
+    padding: 0px;
 }
 
 main {
@@ -56,11 +55,11 @@ header h1 {
 
 }
 
-header nav {
+/* header nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
+} */
 
 header a {
     display: inline;
@@ -103,8 +102,10 @@ main section h2 {
     justify-content: space-between;
 }
 
+/* add a media query rule so that aside disappears when screen size is small enough */
+
 small {
-    padding: 40px 0px;
+    padding: 2.2% 0;
     text-align: center;
 }
 

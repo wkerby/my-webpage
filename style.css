@@ -105,6 +105,11 @@ aside img {
 
 }
 
+aside img:hover {
+    width: 90%;
+    height: 90%;
+}
+
 aside figcaption {
     text-align: center;
 }

@@ -75,6 +75,7 @@ header nav a:hover {
 
 aside {
     border: 1px solid black;
+    border-radius: 5px;
     flex: 0 0 20%;
     margin: 100px 10px 5px;
     display: flex;
@@ -114,7 +115,7 @@ aside figcaption {
 }
 
 main section h2 {
-    font-size: medium;
+    font-size: 1.2em;
 }
 
 .container {
@@ -153,11 +154,11 @@ img {
         margin: 2% 0 0 0;
     }
 
-
 }
 
 main section {
-    height: 33%
+    height: 33%;
+    border-radius: 5px;
 }
 
 

@@ -53,12 +53,6 @@ header h1 {
 
 }
 
-/* header nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
-
 header a {
     display: inline;
     color: white;
@@ -145,4 +139,12 @@ img {
     background-image: url("./assets/google_profile.PNG");
     background-size: 88px;
     background-position: bottom center;
+}
+
+@media (min-height:800px) {
+    .container {
+        margin: 2% 0 0 0;
+    }
+
+
 }

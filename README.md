@@ -11,7 +11,7 @@ As part of this assignment, I applied my newly-learned skills in the following:
 
 Here you will find a link to the deployed webpage:
 
-INSERT LINK HERE
+*https://wkerby.github.io/my-webpage/
 
 ## Credits
 

@@ -13,11 +13,6 @@ Here you will find a link to the deployed webpage:
 
 INSERT LINK HERE
 
-Below is a screenshot of the portfolio:
-
-INSERT SCREENSHOT LINK HERE
-
-
 ## Credits
 
 The portfolio website was completed in conjunction with the software development boot camp provided by the Georgia Tech professional development program.

@@ -166,3 +166,11 @@ aside a {
     display: flex;
     align-items: center;
 }
+
+#contact a {
+    color: black;
+}
+
+#contact a:hover {
+    font-weight: 700;
+}
